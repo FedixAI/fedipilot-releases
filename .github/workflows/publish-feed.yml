@@ -4,8 +4,8 @@
 # pipeline (in the private source repository) attaches installers to a DRAFT
 # release here; draft assets are not publicly downloadable. Only pressing
 # Publish makes them fetchable, and only then does this workflow copy that
-# release's feed fragment into releases.json -- the file the Cloudflare Worker
-# serves to every installed FediPilot.
+# release's feed fragment into releases.json on the `feed` branch -- the file
+# the Cloudflare Worker serves to every installed FediPilot.
 #
 # Merging those two steps would tell every installed copy to download a URL that
 # 404s, and the client's response to that is to drop the update and return to
@@ -39,9 +39,15 @@ jobs:
   publish-feed:
     runs-on: ubuntu-latest
     steps:
+      # The manifest lives on the `feed` branch, not main. The organisation
+      # protects default branches with a pull_request rule that only repository
+      # admins can bypass -- GitHub Actions cannot -- so a push to main is
+      # rejected with GH013. Writing to a non-default branch avoids weakening
+      # that policy for every repo in the org, and keeps the file that decides
+      # what every installed copy downloads off the branch people casually edit.
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: feed
 
       - name: Resolve the release tag
         id: tag
@@ -145,7 +151,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add releases.json
           git commit -m "chore(feed): publish $TAG"
-          git push origin main
+          git push origin feed
 
       - name: Summary
         env:

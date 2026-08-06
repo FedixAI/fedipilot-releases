@@ -31,3 +31,9 @@ Only the built installers and `releases.json`, the manifest the auto-updater
 reads. **The source code is not here** — it lives in a private repository. This
 repository exists because a download link and an auto-updater both have to be
 reachable without a login.
+
+## The update manifest
+
+`releases.json` lives on the [`feed`](../../tree/feed) branch, not here. It is
+written only by the `publish-feed` workflow, which validates it before it goes
+live -- see that branch for why.
