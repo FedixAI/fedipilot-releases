@@ -1,0 +1,163 @@
+# Publish the update feed -- the step that actually makes installed copies update.
+#
+# Runs when a release here is PUBLISHED, never when it is created. The build
+# pipeline (in the private source repository) attaches installers to a DRAFT
+# release here; draft assets are not publicly downloadable. Only pressing
+# Publish makes them fetchable, and only then does this workflow copy that
+# release's feed fragment into releases.json -- the file the Cloudflare Worker
+# serves to every installed FediPilot.
+#
+# Merging those two steps would tell every installed copy to download a URL that
+# 404s, and the client's response to that is to drop the update and return to
+# Idle SILENTLY (updateService.win32.ts). Nobody would see an error; updates
+# would simply stop working.
+
+name: Publish update feed
+
+on:
+  release:
+    types: [published]
+  # Recovery hatch: re-publish the feed from an already-published release, e.g.
+  # after fixing a bad manifest by hand.
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag to publish the feed from (e.g. v0.1.0)"
+        required: true
+
+permissions:
+  contents: write # commit releases.json back to main
+
+concurrency:
+  # Two releases publishing at once would race on the same file and the loser's
+  # platform entry would vanish. Queue instead of cancelling: every published
+  # release must reach the manifest.
+  group: publish-feed
+  cancel-in-progress: false
+
+jobs:
+  publish-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Resolve the release tag
+        id: tag
+        env:
+          EVENT_TAG: ${{ github.event.release.tag_name }}
+          INPUT_TAG: ${{ inputs.tag }}
+        run: |
+          set -euo pipefail
+          tag="${EVENT_TAG:-$INPUT_TAG}"
+          [ -n "$tag" ] || { echo "::error::no release tag to work from"; exit 1; }
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+
+      - name: Download the feed fragment from the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.tag.outputs.tag }}
+        run: |
+          set -euo pipefail
+          gh release download "$TAG" --pattern releases.fragment.json --dir fragment
+          cat fragment/releases.fragment.json
+
+      - name: Merge into releases.json
+        run: |
+          set -euo pipefail
+          node - <<'JS'
+          const fs = require('node:fs');
+          const MANIFEST = 'releases.json';
+
+          const fragment = JSON.parse(fs.readFileSync('fragment/releases.fragment.json', 'utf8'));
+          const current = fs.existsSync(MANIFEST)
+            ? JSON.parse(fs.readFileSync(MANIFEST, 'utf8'))
+            : {};
+
+          // Merge PER PLATFORM rather than replacing the file. A release that
+          // ships only one platform -- a Windows-only hotfix, or a run where the
+          // macOS job failed -- must not silently retract the other platform's
+          // entry. Clients on it would start getting "you are already latest"
+          // forever and quietly stop updating, with nothing to notice.
+          for (const [platform, qualities] of Object.entries(fragment)) {
+            current[platform] = { ...(current[platform] ?? {}), ...qualities };
+          }
+
+          // Refuse to publish an entry a client cannot act on. All three fields
+          // are required by updateService.win32.ts or the update is dropped in
+          // silence -- better to fail this workflow loudly.
+          for (const [platform, qualities] of Object.entries(current)) {
+            for (const [quality, entry] of Object.entries(qualities)) {
+              for (const field of ['version', 'productVersion', 'url']) {
+                if (!entry?.[field]) {
+                  console.error(`::error::${platform}/${quality} is missing "${field}" -- clients would ignore this update silently`);
+                  process.exit(1);
+                }
+              }
+              // version is the build COMMIT SHA, not the product version. It is
+              // the single easiest field to get wrong because the slot reads
+              // like a semver one; if it ever carried "0.1.0" the client would
+              // compare it against a 40-char sha and offer the update forever.
+              if (!/^[0-9a-f]{40}$/i.test(entry.version)) {
+                console.error(`::error::${platform}/${quality}: version must be a 40-char commit sha, got "${entry.version}"`);
+                process.exit(1);
+              }
+            }
+          }
+
+          fs.writeFileSync(MANIFEST, JSON.stringify(current, null, 2) + '\n');
+          console.log(fs.readFileSync(MANIFEST, 'utf8'));
+          JS
+
+      - name: Verify the assets this manifest names are really downloadable
+        run: |
+          set -euo pipefail
+          # The whole point of publishing on `release: published` is that the
+          # URLs work by now. Prove it rather than assume it: an unreachable
+          # installer produces no error anywhere: the client drops the update
+          # and looks idle, so this is the last place it can be caught.
+          fail=0
+          for url in $(node -e "
+            const m = require('./releases.json');
+            for (const q of Object.values(m)) for (const e of Object.values(q)) console.log(e.url);
+          "); do
+            code=$(curl -sIL -o /dev/null -w '%{http_code}' --max-time 30 "$url" || echo 000)
+            if [ "$code" = "200" ]; then
+              echo "  OK   $code  $url"
+            else
+              echo "::error::$code -- not downloadable: $url"
+              fail=1
+            fi
+          done
+          [ "$fail" -eq 0 ] || exit 1
+
+      - name: Commit the manifest
+        env:
+          TAG: ${{ steps.tag.outputs.tag }}
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- releases.json; then
+            echo "manifest already current for $TAG -- nothing to commit"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add releases.json
+          git commit -m "chore(feed): publish $TAG"
+          git push origin main
+
+      - name: Summary
+        env:
+          TAG: ${{ steps.tag.outputs.tag }}
+        run: |
+          {
+            echo "## Update feed published"
+            echo ""
+            echo "\`$TAG\` is live in \`releases.json\`."
+            echo ""
+            echo "Installed copies pick it up on their next check (at startup and"
+            echo "hourly). Allow up to ~10 minutes for it to propagate: GitHub's raw"
+            echo "CDN caches the file for about five minutes and the Worker caches it"
+            echo "for five more."
+          } >> "$GITHUB_STEP_SUMMARY"
