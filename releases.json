@@ -1,1 +1,12 @@
-{}
+{
+  "win32-x64-user": {
+    "oss": {
+      "version": "1111111111111111111111111111111111111111",
+      "productVersion": "0.0.0-livecheck",
+      "timestamp": 1720000000000,
+      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/v0.0.0/does-not-exist.exe",
+      "sha256hash": "0000",
+      "notes": "temporary live-check entry; reverted immediately"
+    }
+  }
+}
