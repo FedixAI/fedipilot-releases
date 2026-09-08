@@ -37,6 +37,7 @@ concurrency:
 
 jobs:
   publish-feed:
+    if: ${{ !startsWith(github.event.release.tag_name || inputs.tag, 'dev-') }}
     runs-on: ubuntu-latest
     steps:
       # The manifest lives on the `feed` branch, not main. The organisation
@@ -87,6 +88,13 @@ jobs:
           // entry. Clients on it would start getting "you are already latest"
           // forever and quietly stop updating, with nothing to notice.
           for (const [platform, qualities] of Object.entries(fragment)) {
+            for (const [quality, next] of Object.entries(qualities)) {
+              const previous = current[platform]?.[quality];
+              if (previous && previous.version !== next.version && Array.isArray(previous.supersedes) &&
+                  (!Array.isArray(next.supersedes) || !next.supersedes.includes(previous.version))) {
+                throw new Error(`Refusing stale or unordered release for ${platform}/${quality}`);
+              }
+            }
             current[platform] = { ...(current[platform] ?? {}), ...qualities };
           }
 
