@@ -951,11 +951,15 @@
   },
   "darwin-arm64": {
     "oss": {
-      "version": "afff6b479409abc94de9916e8a69b621c4492058",
-      "productVersion": "0.1.2-628-gafff6b4",
-      "timestamp": 1788884235000,
-      "sourceTimestamp": 1788884235000,
+      "version": "bcb7f83ee47a245dcb737c2e8e96ffa7f4c2c6f0",
+      "productVersion": "0.1.2-632-gbcb7f83",
+      "timestamp": 1788901089000,
+      "sourceTimestamp": 1788901089000,
       "supersedes": [
+        "fa4161dbbb1d642bbed0daf61ead982061304a54",
+        "1e36d4ace47265a85f1254bf124a5e3cfb431420",
+        "5e4a813d9663bf7e6b727b42f0a5ae2b97bbc9e7",
+        "afff6b479409abc94de9916e8a69b621c4492058",
         "8bf4ce17e77208a61b5cc8b968e7e28e97b7cc95",
         "1d7ff3fba4ef062ca8023dabc96060d2f88565f4",
         "896d1a671117b1f160c1744148e0a9c6a633447f",
@@ -2005,9 +2009,9 @@
         "f9b92d574ffb928497720944cb7f81a090fb9560",
         "ca491475ea055bab0bd148c91d262f580bee7b8c"
       ],
-      "sha256hash": "b97152a0885bcee1fbfe9d140d62f470c74d9cd7dc9910c59319eb9d0f0169c2",
-      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-afff6b479409abc94de9916e8a69b621c4492058/FediPilot-darwin-arm64-afff6b479409abc94de9916e8a69b621c4492058.zip",
-      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-afff6b479409abc94de9916e8a69b621c4492058"
+      "sha256hash": "cfc7ec90af19c0393abe9fa957a4a7c9657038c553771298fec84a5dce4178b6",
+      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-bcb7f83ee47a245dcb737c2e8e96ffa7f4c2c6f0/FediPilot-darwin-arm64-bcb7f83ee47a245dcb737c2e8e96ffa7f4c2c6f0.zip",
+      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-bcb7f83ee47a245dcb737c2e8e96ffa7f4c2c6f0"
     }
   }
 }
