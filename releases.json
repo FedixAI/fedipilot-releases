@@ -951,13 +951,20 @@
   },
   "darwin-arm64": {
     "oss": {
-      "version": "b7c4c5c43545a9baf482d695e7e412f3e113e887",
-      "productVersion": "0.1.2-565-gb7c4c5c",
-      "timestamp": 1788848321000,
-      "sourceTimestamp": 1788848321000,
+      "version": "ced93e2756e14cfc94509bc77c5009f8818b1720",
+      "productVersion": "0.1.2-572-gced93e2",
+      "timestamp": 1788849481000,
+      "sourceTimestamp": 1788849481000,
       "supersedes": [
+        "beba5c1e364eca78df71cc50c0121760c374500a",
+        "826b8ee74d6afb083086090e52a33807528c4e4f",
+        "9dbb72cb4a010a40f4749002a389f9acb026994e",
+        "112b01968ea165da93c394d9213095f880d43c31",
+        "36bd572acd3abf6b076c7958f841fde59dc053b2",
+        "b7c4c5c43545a9baf482d695e7e412f3e113e887",
         "74402255b3b41e003018de4657877ebbb8ba11e4",
         "14db3a2c3bf0a013af46a5329548976bfa5579a9",
+        "48a895c27241ec6effaa27a1ebe0bf8bd397a9f0",
         "3d7b8ce6fd6429a34053e45df0615effc931ec63",
         "2b18bc754704488b4b07cb03f09a0a357e0288cf",
         "2ec150c2338600d064ee3e6e5b61e1aca30e1ec1",
@@ -1942,9 +1949,9 @@
         "f9b92d574ffb928497720944cb7f81a090fb9560",
         "ca491475ea055bab0bd148c91d262f580bee7b8c"
       ],
-      "sha256hash": "f8f5cd3d1735a2b817dc56a4f5e9edcb5ac7f123baf22dd01eb35d21f67dcc59",
-      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-b7c4c5c43545a9baf482d695e7e412f3e113e887/FediPilot-darwin-arm64-b7c4c5c43545a9baf482d695e7e412f3e113e887.zip",
-      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-b7c4c5c43545a9baf482d695e7e412f3e113e887"
+      "sha256hash": "b9407237b265ef300d53a7f636c145b95b8488a760f064d19daefcc193994280",
+      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-ced93e2756e14cfc94509bc77c5009f8818b1720/FediPilot-darwin-arm64-ced93e2756e14cfc94509bc77c5009f8818b1720.zip",
+      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-ced93e2756e14cfc94509bc77c5009f8818b1720"
     }
   }
 }
