@@ -951,14 +951,21 @@
   },
   "darwin-arm64": {
     "oss": {
-      "version": "611bf973c2d4ce133e7b4c7399fba675228d26e9",
-      "productVersion": "0.1.2-690-g611bf97",
-      "timestamp": 1788913208000,
-      "sourceTimestamp": 1788913208000,
+      "version": "71e5367b8d2106e6d3699562ff60563f2e09881f",
+      "productVersion": "0.1.2-697-g71e5367",
+      "timestamp": 1788913478000,
+      "sourceTimestamp": 1788913478000,
       "supersedes": [
+        "e2b8d76c3328d36fbb1e0c469900dc9b3d6ed589",
+        "8fc23aed15c7dcf0597b27ecad166062cd89858e",
+        "611bf973c2d4ce133e7b4c7399fba675228d26e9",
         "578b3fcc300adc07cb170816b9d837592cc7e887",
+        "8daf17ba711657e744d6564b42ce670679e4a139",
+        "e0ac9abc55ccce9c95780676b7bcbe6cda12ec5a",
+        "66c6c196ed08d757aa63768becd8a3f390dc5c99",
         "a4be4896c04b7b5902bd0509f9c5b3d82cf4fdd0",
         "c376855fa7260a10fbc5b4c7fa09cefc429e503e",
+        "fc54890d17a073ae800db9e4eae1566c19f4b8da",
         "5bf8e0bf01f44ea5051e16f10d981ecdf9bbcb68",
         "49fdbea31022f559dae233a80e304b9e5af31aa5",
         "5193e9c336c230a078404b102414c99ea23c7d4a",
@@ -2067,9 +2074,9 @@
         "f9b92d574ffb928497720944cb7f81a090fb9560",
         "ca491475ea055bab0bd148c91d262f580bee7b8c"
       ],
-      "sha256hash": "e4b7c3a5a0386223ff21b86993c03c4debb49b592c233d2d88fbe07e398444f2",
-      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-611bf973c2d4ce133e7b4c7399fba675228d26e9/FediPilot-darwin-arm64-611bf973c2d4ce133e7b4c7399fba675228d26e9.zip",
-      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-611bf973c2d4ce133e7b4c7399fba675228d26e9"
+      "sha256hash": "22e4f022ed64641386e0f5660f74625d933503833dbf292ac25bbff67fb78a93",
+      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-71e5367b8d2106e6d3699562ff60563f2e09881f/FediPilot-darwin-arm64-71e5367b8d2106e6d3699562ff60563f2e09881f.zip",
+      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-71e5367b8d2106e6d3699562ff60563f2e09881f"
     }
   }
 }
