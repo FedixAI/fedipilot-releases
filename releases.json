@@ -951,11 +951,20 @@
   },
   "darwin-arm64": {
     "oss": {
-      "version": "930352e2ef6ddf0157d041a81930273734db34ac",
-      "productVersion": "0.1.2-791-g930352e",
-      "timestamp": 1789004608000,
-      "sourceTimestamp": 1789004608000,
+      "version": "29297d2498b1e97012e9245ffbfb1930e9cfd921",
+      "productVersion": "0.1.2-800-g29297d2",
+      "timestamp": 1789005883000,
+      "sourceTimestamp": 1789005883000,
       "supersedes": [
+        "7a7283f1f5d01b5df952fb7898e0e50be30e6578",
+        "f043c884b426fd61843f66553aa577ef7ab3e773",
+        "9e642947c15ae32e7f6325e6d231030b8086048a",
+        "4ffd8f15530a996d984be1b5b94a656608e5591a",
+        "fa48aa2e5c57bd59acb5546cc4fbe8a8f86af96e",
+        "b8a4dcd5be70653cf4190e4ed5d1b5ea92c7a6a3",
+        "efca83278aa1455bdcb4b5394ecf0231ac160848",
+        "6b1fa842325d936c9a75c629b972c37cdfc68cbf",
+        "930352e2ef6ddf0157d041a81930273734db34ac",
         "b5b8ca7f492e2259c9ff961df004a1c1a4c6aa2d",
         "1ee3cd9dc4cb1eac3dd119842835901b5869fc30",
         "f2c6041a5420a49b87dc7ebf9237b8404a4f71a0",
@@ -2168,9 +2177,9 @@
         "f9b92d574ffb928497720944cb7f81a090fb9560",
         "ca491475ea055bab0bd148c91d262f580bee7b8c"
       ],
-      "sha256hash": "c5de53e25a3216ef3ea683e265e73cd2a2886218d2dfcfd8b842abde5f45a4a5",
-      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-930352e2ef6ddf0157d041a81930273734db34ac/FediPilot-darwin-arm64-930352e2ef6ddf0157d041a81930273734db34ac.zip",
-      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-930352e2ef6ddf0157d041a81930273734db34ac"
+      "sha256hash": "b63a9d7d2f7ea728e78ae1a2b5a9fddedc0da3758cd53740174cbfa74335227f",
+      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-29297d2498b1e97012e9245ffbfb1930e9cfd921/FediPilot-darwin-arm64-29297d2498b1e97012e9245ffbfb1930e9cfd921.zip",
+      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-29297d2498b1e97012e9245ffbfb1930e9cfd921"
     }
   }
 }
