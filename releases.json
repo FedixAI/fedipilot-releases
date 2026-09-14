@@ -1591,12 +1591,21 @@
   },
   "darwin-arm64": {
     "oss": {
-      "version": "74be437bdae4033bf71ce8f0ab1a1661c4a27222",
-      "productVersion": "0.1.2-1159-g74be437",
-      "timestamp": 1789383547000,
-      "sourceTimestamp": 1789383547000,
+      "version": "4d97209f38ac6dbf157fd96a5cb70c40fa358552",
+      "productVersion": "0.1.2-1168-g4d97209",
+      "timestamp": 1789387352000,
+      "sourceTimestamp": 1789387352000,
       "supersedes": [
+        "caa8d19157fe1f6e120cb484a58ca811f7170296",
+        "349944d5bd128a6000f9aa7bd4a8dc2f5783aa28",
+        "e5b495e7c808f09b6d9796b7aaadc795514e3b4d",
+        "9ffdd6311906e0a741e9c99c3faaf08d5771578b",
+        "74be437bdae4033bf71ce8f0ab1a1661c4a27222",
+        "40afea14c2dbafc98f5f485622bafd05ae432d53",
+        "d34ad53dd292ebdb691e9ceaacadb32c70b17f04",
         "66dee85ee0259ea10dd8b363052a160bf360b6ca",
+        "ad143c5d8c6481632ad4f61160369be90041910a",
+        "8eac7124ae9ea281591f74f64687ee3d942f4dd8",
         "8385f204e1e800df4edbc53fa40e33e841ca8e4a",
         "42f0e9bd6c317776c19203d041d81aec9f5bd4d8",
         "45f76192b91118b4c52b89b7d43373080a03edd7",
@@ -3176,9 +3185,9 @@
         "f9b92d574ffb928497720944cb7f81a090fb9560",
         "ca491475ea055bab0bd148c91d262f580bee7b8c"
       ],
-      "sha256hash": "eafe1b72197c86b3dcd20e2ecbefae7a4f34485217a864568baa0cdaa2ce4fcb",
-      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-74be437bdae4033bf71ce8f0ab1a1661c4a27222/FediPilot-darwin-arm64-74be437bdae4033bf71ce8f0ab1a1661c4a27222.zip",
-      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-74be437bdae4033bf71ce8f0ab1a1661c4a27222"
+      "sha256hash": "d3b206f0496193c54c48e4fdf83a2c43c29d3f922453b17190c9712ff4d6afe1",
+      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-4d97209f38ac6dbf157fd96a5cb70c40fa358552/FediPilot-darwin-arm64-4d97209f38ac6dbf157fd96a5cb70c40fa358552.zip",
+      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-4d97209f38ac6dbf157fd96a5cb70c40fa358552"
     }
   }
 }
