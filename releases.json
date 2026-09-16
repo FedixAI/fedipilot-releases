@@ -1,11 +1,22 @@
 {
   "win32-x64-user": {
     "oss": {
-      "version": "d1f7941efe062b6a8673b632fe295abf14de0c14",
-      "productVersion": "0.2.0-dev.d1f7941efe06",
-      "timestamp": 1789535188529,
-      "sourceTimestamp": 1789526229000,
+      "version": "c2284e902b448d86456eea31757b4beecc160e5a",
+      "productVersion": "0.2.0-dev.c2284e902b44",
+      "timestamp": 1789543784397,
+      "sourceTimestamp": 1789530971000,
       "supersedes": [
+        "da5d6c44e03214b8d11022e401f623fe252de2db",
+        "d2676d2314492906a6f3049da06cb964483888ce",
+        "a9b87746f61053ec510417fffe5b70cf2946ec2d",
+        "3cf4a1e7796637554548749c6f54b55d80dc263b",
+        "aac50696e98424b77c94a3d9b7ed0e56a503fa14",
+        "28e916adf233b3955a14caa7c875f82dcefae39e",
+        "db8b9f3bcde7090c03a7adc05286b0458d7e3d46",
+        "90052850d85c8dbe904c2a202cc8e87d1c306741",
+        "b64477c7b08b2851ee8026b4d86e435b6f29eef3",
+        "42a960195bc9a7ba0ce0bab2f9cc980843d32efd",
+        "d1f7941efe062b6a8673b632fe295abf14de0c14",
         "a85f0f018d0f949bc7e20b8b03d3ca0586b26d59",
         "5ed8de6c3baf9325ab35d80aeb5adff32dc61f66",
         "1efdd1c74195b70df3931ebe5e0a4b43f16fde42",
@@ -1716,9 +1727,9 @@
         "f9b92d574ffb928497720944cb7f81a090fb9560",
         "ca491475ea055bab0bd148c91d262f580bee7b8c"
       ],
-      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-d1f7941efe062b6a8673b632fe295abf14de0c14/FediPilotSetup-x64-0.2.0-dev.d1f7941efe06.exe",
-      "sha256hash": "ab23d9296bad5267e888586a26ebe2368c5333ae7e4063c72e0e4a6d287e41c0",
-      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-d1f7941efe062b6a8673b632fe295abf14de0c14"
+      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-c2284e902b448d86456eea31757b4beecc160e5a/FediPilotSetup-x64-0.2.0-dev.c2284e902b44.exe",
+      "sha256hash": "bfed7f1eee32123a2170ec65d8ae35b6292b397e9e8aa75949e3b1b3a3413321",
+      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-c2284e902b448d86456eea31757b4beecc160e5a"
     }
   },
   "darwin-arm64": {
