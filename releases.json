@@ -1,11 +1,12 @@
 {
   "win32-x64-user": {
     "oss": {
-      "version": "50d2ec9c0bdb5cee68abf9e755d6ac05ed2884a7",
-      "productVersion": "0.2.0-dev.50d2ec9c0bdb",
-      "timestamp": 1789861603619,
-      "sourceTimestamp": 1789854936000,
+      "version": "1f355bc004ff12d5fbb8012a0319ba14f460870b",
+      "productVersion": "0.2.0-dev.1f355bc004ff",
+      "timestamp": 1789867096013,
+      "sourceTimestamp": 1789858287000,
       "supersedes": [
+        "50d2ec9c0bdb5cee68abf9e755d6ac05ed2884a7",
         "75797b7ea45e98a38e0931db01e0d700e5bfc5ff",
         "c14eb54fd0517aabbb8543c1bc022c5f8bc6fbdc",
         "f91971c7b85b74cb73d2a7b046897cd3fc38795e",
@@ -1827,9 +1828,9 @@
         "f9b92d574ffb928497720944cb7f81a090fb9560",
         "ca491475ea055bab0bd148c91d262f580bee7b8c"
       ],
-      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-50d2ec9c0bdb5cee68abf9e755d6ac05ed2884a7/FediPilotSetup-x64-0.2.0-dev.50d2ec9c0bdb.exe",
-      "sha256hash": "9460f766a2a805dc5e1194aa1f050919459eeb4c7bca3ddd3e048d8246633a30",
-      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-50d2ec9c0bdb5cee68abf9e755d6ac05ed2884a7"
+      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-1f355bc004ff12d5fbb8012a0319ba14f460870b/FediPilotSetup-x64-0.2.0-dev.1f355bc004ff.exe",
+      "sha256hash": "5637bfb8df12672ee24548126faaef64bd9585986e21c2e5eb64f3b660517409",
+      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-1f355bc004ff12d5fbb8012a0319ba14f460870b"
     }
   },
   "darwin-arm64": {
