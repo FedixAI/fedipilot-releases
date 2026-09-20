@@ -1,11 +1,13 @@
 {
   "win32-x64-user": {
     "oss": {
-      "version": "321d3eaf288b7146f5eb883ee8c84e6ac1b95b4c",
-      "productVersion": "0.2.0-dev.321d3eaf288b",
-      "timestamp": 1789872499311,
-      "sourceTimestamp": 1789867198000,
+      "version": "067474f5e728e3780583accc91a15a28d91fd3a9",
+      "productVersion": "0.2.0-dev.067474f5e728",
+      "timestamp": 1789879135037,
+      "sourceTimestamp": 1789873441000,
       "supersedes": [
+        "65e53a429b0d2414d85949e9812d281d0e1b90fe",
+        "321d3eaf288b7146f5eb883ee8c84e6ac1b95b4c",
         "1f355bc004ff12d5fbb8012a0319ba14f460870b",
         "50d2ec9c0bdb5cee68abf9e755d6ac05ed2884a7",
         "75797b7ea45e98a38e0931db01e0d700e5bfc5ff",
@@ -92,6 +94,7 @@
         "241194a5c5c0b92612de1b3f05c01d6ad0f0b15c",
         "91c613a1f228d4e1053b3986369e0d804681a91c",
         "d06e40308b813d36d17d7fa84c6c34f50dd3ce8e",
+        "f1237997c1a0c620eb0792cd4ce499d09f73345d",
         "7fcf0405b4bc80bd70e5420717c2adc4bfb6d2f9",
         "39db4441bb8c3b2670382a700216b0540e20f976",
         "427d57a9201ffdc01a596556858e437ec4200207",
@@ -1829,9 +1832,9 @@
         "f9b92d574ffb928497720944cb7f81a090fb9560",
         "ca491475ea055bab0bd148c91d262f580bee7b8c"
       ],
-      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-321d3eaf288b7146f5eb883ee8c84e6ac1b95b4c/FediPilotSetup-x64-0.2.0-dev.321d3eaf288b.exe",
-      "sha256hash": "5983b51577ab53ef9b826c0e2335fd8f6dc6175416fc2fb2307b1ee94fe8a6bb",
-      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-321d3eaf288b7146f5eb883ee8c84e6ac1b95b4c"
+      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-067474f5e728e3780583accc91a15a28d91fd3a9/FediPilotSetup-x64-0.2.0-dev.067474f5e728.exe",
+      "sha256hash": "26faaf9843de7d32997aa094c6542a7c0ec7c1b017c3ce3188b759e806a02bae",
+      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-067474f5e728e3780583accc91a15a28d91fd3a9"
     }
   },
   "darwin-arm64": {
