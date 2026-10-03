@@ -1,11 +1,35 @@
 {
   "win32-x64-user": {
     "oss": {
-      "version": "48ad81567d689fa657c95041073d7327338969b0",
-      "productVersion": "0.2.0-dev.48ad81567d68",
-      "timestamp": 1791038780790,
-      "sourceTimestamp": 1791032265000,
+      "version": "10d7332c30e67125bc231519f9e9207a0d752ebb",
+      "productVersion": "0.2.0-dev.10d7332c30e6",
+      "timestamp": 1791044606806,
+      "sourceTimestamp": 1791036298000,
       "supersedes": [
+        "2128cf7b486f24ff82f946578eb05b9d87a1218f",
+        "67da4affaa4db2574ee9cf60a48060e1bd6e410f",
+        "3f4a600924687773e08e19b1d1d8ae05e13ff210",
+        "ee56750821df6eed22527719aac29dd3bf5f48b1",
+        "b59fb6f944e142502a38671b67298230846c3608",
+        "3545fe7f7be4dc5e293c7e8240b9cf928e99efd2",
+        "d9c3c0384638a00e84acd52e471b94aa3ba79490",
+        "b454b1d70289b2da3a03ef7311e3fa7547a4786d",
+        "5248f144a72b043f25ca736b6ed767a778d2070e",
+        "605b6385f339728a8eb5e1bed002034e3e8a2c74",
+        "6f5b1bd79e13f09efc19dc6a8e052da4ac22b611",
+        "9467456f0622e80baf32edd86d797ef15dd278ae",
+        "2ad2043dcf2b0522347051fbb585b384e84fd9a2",
+        "f302198d48c64735e22373a6894e6f77f721e43f",
+        "f51aa3637261a34a14e68d15c9dd0a860a49136f",
+        "a89b092fcd3ef8af0b1fc83c5bb65c0490a47a14",
+        "abfe21235683866b6ef9c57bed79fbd136a11a70",
+        "db1da9b1b8b2d1e18fc35d6768580ebcaf508c5a",
+        "8c5f114ab4cf7d56cc9c737929e82394a71966fa",
+        "d566083b1c01a295ad55d701ddad462f3a0fc74a",
+        "b39cce413c5d6dba57f3c346be37fa6ed823ce70",
+        "f17dffa49e014c06529fc2e3d45fa3cfe7710a1f",
+        "947f10dc46d57378b510cc96d975ee08042e5c3f",
+        "48ad81567d689fa657c95041073d7327338969b0",
         "814db6f9493cfce0a470ca75ada5bf2ee6b49311",
         "09c6c2553c480874719fc416f45b163b3cca28fb",
         "5b2359737776271b0f25e19d0cb60991799aaeb8",
@@ -4894,9 +4918,9 @@
         "f9b92d574ffb928497720944cb7f81a090fb9560",
         "ca491475ea055bab0bd148c91d262f580bee7b8c"
       ],
-      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-48ad81567d689fa657c95041073d7327338969b0/FediPilotSetup-x64-0.2.0-dev.48ad81567d68.exe",
-      "sha256hash": "d0ab97fb209abe2529bfcaa838d1eb2c037ca4341035b3b0fd9aca4e4274aa60",
-      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-48ad81567d689fa657c95041073d7327338969b0"
+      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-10d7332c30e67125bc231519f9e9207a0d752ebb/FediPilotSetup-x64-0.2.0-dev.10d7332c30e6.exe",
+      "sha256hash": "ed28faeabcf8b97fc514cda72fb1aca3fe6fdcec36eef4497e37cb9c1fe75cde",
+      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-10d7332c30e67125bc231519f9e9207a0d752ebb"
     }
   },
   "darwin-arm64": {
