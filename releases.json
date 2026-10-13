@@ -1,11 +1,23 @@
 {
   "win32-x64-user": {
     "oss": {
-      "version": "5108f9dfe4932cc45783df17e1ac7f103d21b1e9",
-      "productVersion": "0.2.0-dev.5108f9dfe493",
-      "timestamp": 1791842935892,
-      "sourceTimestamp": 1791836799000,
+      "version": "1fe52fdc0cdf8c9ea66fd246604cfd692525c98d",
+      "productVersion": "0.2.0-dev.1fe52fdc0cdf",
+      "timestamp": 1791853163053,
+      "sourceTimestamp": 1791841072000,
       "supersedes": [
+        "53ed9483c78cdddf05a72c00d940d5f0289bdb06",
+        "faac06317bf05543c1fd9951d244fb0f39f14d50",
+        "79cd57ebdee772ada1756c64e2e652d7fe13c3c1",
+        "35da0bea19c52c7d1dcf60c1b44c7745eae7b3ec",
+        "c48b74657cb1beb51955a9b45caf577ebc999711",
+        "328a8edf82b3d2008d7467a1ebb2e2fc8428f028",
+        "50437232ca9bbe555c1e02e48b06e17f915edeb3",
+        "1b16691624853b4ad1acb25e66590d6a833873f5",
+        "80d2afb711177ce64e539286eaef8275964ce388",
+        "3220f5a7c7fe2060eb19f031d593502893e5f066",
+        "4079d57aec2703b9d7bbc64f5e7c3725cecae637",
+        "5108f9dfe4932cc45783df17e1ac7f103d21b1e9",
         "873a74dca86e738acbcf4ee34ccdc8c0eb373f0b",
         "49b8e5d984eba17f08ce086010948d939fa9bf59",
         "165efe913f24498a7714f63212c0e5f04d3787e9",
@@ -7141,9 +7153,9 @@
         "f9b92d574ffb928497720944cb7f81a090fb9560",
         "ca491475ea055bab0bd148c91d262f580bee7b8c"
       ],
-      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-20261012-2026-5108f9d/FediPilotSetup-x64-0.2.0-dev.5108f9dfe493.exe",
-      "sha256hash": "2769c70581ef681957a3330d5998278214cf539a43df8caffaa2308e061b452e",
-      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-20261012-2026-5108f9d"
+      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-20261012-2137-1fe52fd/FediPilotSetup-x64-0.2.0-dev.1fe52fdc0cdf.exe",
+      "sha256hash": "d287513b409b9a4ffaee29a2b5c5d30ab65f3d8085aa0fa4d2de1f3f74d4d85c",
+      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-20261012-2137-1fe52fd"
     }
   },
   "darwin-arm64": {
