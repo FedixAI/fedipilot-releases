@@ -1,11 +1,24 @@
 {
   "win32-x64-user": {
     "oss": {
-      "version": "5a93f751d15c59c93dba4d8f1dfca53666bffead",
-      "productVersion": "0.2.0-dev.5a93f751d15c",
-      "timestamp": 1792089047111,
-      "sourceTimestamp": 1792081310000,
+      "version": "3fc95b290a067b0907d85cfe8680223975bd7dbc",
+      "productVersion": "0.2.0-dev.3fc95b290a06",
+      "timestamp": 1792096579545,
+      "sourceTimestamp": 1792086178000,
       "supersedes": [
+        "b0c081211f40f4a27dec7ade51ba15f7a2afe78c",
+        "2ad478328032be7c1129daa727d675d5d361387b",
+        "c68d46b57af6cb46c83ca947404dfc28754065af",
+        "579bf8ebb861848b03832ba3731b2bc63cadd940",
+        "88fe45097d9455a103740a4e97447d5003f7b589",
+        "beaba5573a0b21ba72b85f635f077956cf34f5fe",
+        "5d83cc68adf0c5ba8bfeecb5a0503f4fe2767d7e",
+        "33c678d46b83f6459766722011281eb5971faf35",
+        "c63c82239329f442ca8902aa6a8be516f4f99a9b",
+        "6698aaf5d56365d4bbad1f7854e63c8c15809ede",
+        "f34fa71c2018d86b87e1178300dce0019bbaac3b",
+        "3129244429a271d1af21718357cd181331cf70d5",
+        "5a93f751d15c59c93dba4d8f1dfca53666bffead",
         "fb32d875726fa5581e82c74f75ce38020b4aba04",
         "5720501941c9d81cc17c7964188d707a61717ae1",
         "c9596e757a39a971ea14f6b514e954619746c311",
@@ -8032,9 +8045,9 @@
         "f9b92d574ffb928497720944cb7f81a090fb9560",
         "ca491475ea055bab0bd148c91d262f580bee7b8c"
       ],
-      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-20261015-1621-5a93f75/FediPilotSetup-x64-0.2.0-dev.5a93f751d15c.exe",
-      "sha256hash": "476c99bbfe02b33c3ef2c47350fa40411a5137913f01c309fb2c51e001a1bbe7",
-      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-20261015-1621-5a93f75"
+      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-20261015-1742-3fc95b2/FediPilotSetup-x64-0.2.0-dev.3fc95b290a06.exe",
+      "sha256hash": "7867a4ff39dc2d2694d01b6a5244eb2e72fe053d64ca176320c73f6b00fa5386",
+      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-20261015-1742-3fc95b2"
     }
   },
   "darwin-arm64": {
