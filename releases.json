@@ -9563,11 +9563,23 @@
   },
   "darwin-arm64": {
     "oss": {
-      "version": "419774840555e6a2690b34d7ea2526637b1e7973",
+      "version": "4acda6d3150de6f6e1c4361a1cb96fb38494b111",
       "productVersion": "0.1.0",
-      "timestamp": 1792610174000,
-      "sourceTimestamp": 1792610174000,
+      "timestamp": 1792633547000,
+      "sourceTimestamp": 1792633547000,
       "supersedes": [
+        "1c02220644f726f01fa2cf45d72b500384d2c51b",
+        "3a3121086104b71933c9f3c426eb4a600ab4a086",
+        "dcc9c5267f9c17f508c8ce912633aaf725ed3560",
+        "971cadc51666a11fb7ee9782743073ec5ac4fd53",
+        "41959b9ff665e08756e61c0cc43c9e749c4c4e80",
+        "5f570687e8a6e6e7bf6d8e602f366ef6ee567e7a",
+        "84b3aecad0e7accdc1799d79d4ef69857f9f67c8",
+        "50f575fc4fd867a1f0c627a292088cc8ea6245c7",
+        "f2b09b9f4df781c20b9ad7f5644f2c3e3391fbe5",
+        "a0134e6fda427d55c0f1ca8f3619b99b68ec5ef8",
+        "471a78287e3b335870b02ab6e8eff1a983524e3d",
+        "419774840555e6a2690b34d7ea2526637b1e7973",
         "a6d10f2926cd64489bf12f17ee97d7426cf98e82",
         "7c3bac5740236b99a9eeaed5692ca47730097abb",
         "3bec715ecafa409e732128da95ffd90e6b2e2021",
@@ -19115,9 +19127,9 @@
         "f9b92d574ffb928497720944cb7f81a090fb9560",
         "ca491475ea055bab0bd148c91d262f580bee7b8c"
       ],
-      "sha256hash": "57b3d2f6e0381644ec138ff8d6988a827eca163b6c347e942500d44b41bdca76",
-      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-20261021-1916-4197748/FediPilot-darwin-arm64-419774840555e6a2690b34d7ea2526637b1e7973.zip",
-      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-20261021-1916-4197748"
+      "sha256hash": "93c39d559d693e638324aa50737805a40e4d3ed7eb6c2d928feb7d6b44552c63",
+      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-20261022-0145-4acda6d/FediPilot-darwin-arm64-4acda6d3150de6f6e1c4361a1cb96fb38494b111.zip",
+      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-20261022-0145-4acda6d"
     }
   }
 }
