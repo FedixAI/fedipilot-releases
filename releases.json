@@ -1,11 +1,23 @@
 {
   "win32-x64-user": {
     "oss": {
-      "version": "31b4369da9b2eb95b3cbb4eeb53498228511eb12",
-      "productVersion": "0.2.0-dev.31b4369da9b2",
-      "timestamp": 1793568782735,
-      "sourceTimestamp": 1793559397000,
+      "version": "8beddf2ac40fff8d11b07eda8bce2ab305b69487",
+      "productVersion": "0.2.0-dev.8beddf2ac40f",
+      "timestamp": 1793581987138,
+      "sourceTimestamp": 1793568236000,
       "supersedes": [
+        "242afcead3a58920e7e0d686514e4275e6abae43",
+        "755cf802858d30e56ecc15f21218c26cff3ba030",
+        "d410fb01ea213baf78c32e8813374d66e2c5a3cf",
+        "3b29652b741eae8de40b2bd467ec2512f61f61b1",
+        "4926de016f02446add168efabedcb082a64a63b8",
+        "bded53d5d04ef5c96fe2ac6a5bf5ce9bcf95b6b1",
+        "d0e394767f8d2804fe10e642c96fa50c1f723c5d",
+        "ae3cb73f80d5935e6e96bd7a1b291216d7e92602",
+        "f1c1527a9bbb8c9c081f93fb629d932a8f06a607",
+        "6b721d771d33282b543e7ae18edf0fe31fd9773e",
+        "083eb0f2f2e34b744b159ee244993448fcda9a80",
+        "31b4369da9b2eb95b3cbb4eeb53498228511eb12",
         "78ac94ab42991bc73fbe36c94ec368eef09d1911",
         "f40224b56d9098f169628f57a4f52e02238e2c25",
         "ec8dfdeff5ad02b152ad11c0114f8a0da157c87c",
@@ -13187,9 +13199,9 @@
         "f9b92d574ffb928497720944cb7f81a090fb9560",
         "ca491475ea055bab0bd148c91d262f580bee7b8c"
       ],
-      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-20261101-1856-31b4369/FediPilotSetup-x64-0.2.0-dev.31b4369da9b2.exe",
-      "sha256hash": "14fe13439bb022cdbe52f319638f400494acd131bf039b838cd8be195cab6454",
-      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-20261101-1856-31b4369"
+      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-20261101-2123-8beddf2/FediPilotSetup-x64-0.2.0-dev.8beddf2ac40f.exe",
+      "sha256hash": "bed48df67aac44ea3747b01219a8ffbe1bf05222c293b035724e020e587f998e",
+      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-20261101-2123-8beddf2"
     }
   },
   "darwin-arm64": {
