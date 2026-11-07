@@ -13567,11 +13567,23 @@
   },
   "darwin-arm64": {
     "oss": {
-      "version": "e77ff80a5659dcbf650bceac3a52a3f5a1a7df86",
+      "version": "14cca30544dda8e9b4672e5d7b7a9fc81deb666e",
       "productVersion": "0.1.0",
-      "timestamp": 1794019105000,
-      "sourceTimestamp": 1794019105000,
+      "timestamp": 1794035379000,
+      "sourceTimestamp": 1794035379000,
       "supersedes": [
+        "f74cf031a060f9705eab8d9bc7ba7981ea8f1032",
+        "c1f12bc7a60e025b380f16074bbc053676a4bb1b",
+        "118846bad435f0745d8763cdef9237af63ebcb80",
+        "4fe2188b9d286e2b24a5e0053341bdda164c31db",
+        "0ad0759315bd5dca25a6d53c7455c05dc68bb005",
+        "659b5d10b36509d61bf16a901a91b8c46f613867",
+        "63a2027a075324c023602c926b8ac0e448615c59",
+        "dc4d7fe5169d042b20e8ef2320d8d287421bfd2e",
+        "753f5e68c78e2eac7af6700aada93a2c5dd99322",
+        "88923d48a7cab008376e0c612e59626d5e2a8407",
+        "945c606995ef1190c2ce6c486cdc980fb7b79e8d",
+        "e77ff80a5659dcbf650bceac3a52a3f5a1a7df86",
         "91a3fae3a27f1efb7b6f56b550ec270ee5e23864",
         "79a5b90bdae6bd496ec1bde862deb4acc0bfae36",
         "0a43983a7e7ae0a1e2bc97ece4bb613b880985c8",
@@ -27675,9 +27687,9 @@
         "f9b92d574ffb928497720944cb7f81a090fb9560",
         "ca491475ea055bab0bd148c91d262f580bee7b8c"
       ],
-      "sha256hash": "918b0efa7c09bfdfe457c262dc46331e733c2617768eaf4ec94b039723753b60",
-      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-20261107-0238-e77ff80/FediPilot-darwin-arm64-e77ff80a5659dcbf650bceac3a52a3f5a1a7df86.zip",
-      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-20261107-0238-e77ff80"
+      "sha256hash": "59725841034ad272bb21df67820bade33879f8b536f216eea85e201ddfb666f1",
+      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-20261107-0709-14cca30/FediPilot-darwin-arm64-14cca30544dda8e9b4672e5d7b7a9fc81deb666e.zip",
+      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-20261107-0709-14cca30"
     }
   }
 }
