@@ -13567,11 +13567,40 @@
   },
   "darwin-arm64": {
     "oss": {
-      "version": "6c46d504e487426015dec8b3b4a16f37542bcc4e",
+      "version": "e77ff80a5659dcbf650bceac3a52a3f5a1a7df86",
       "productVersion": "0.1.0",
-      "timestamp": 1794001064000,
-      "sourceTimestamp": 1794001064000,
+      "timestamp": 1794019105000,
+      "sourceTimestamp": 1794019105000,
       "supersedes": [
+        "91a3fae3a27f1efb7b6f56b550ec270ee5e23864",
+        "79a5b90bdae6bd496ec1bde862deb4acc0bfae36",
+        "0a43983a7e7ae0a1e2bc97ece4bb613b880985c8",
+        "24fb596d3397ea0dff9b44d3af9f7e667dc27d4b",
+        "abc94a869ce0ecb28063020593c09f7c24afb626",
+        "cce5d0770ff789c997a25f578d9d24dabe519cd3",
+        "16f3814fe8511c8ac68a3cac8aee797cb4f79008",
+        "a54389ad1a6db4f777c7550c2bfb32b2d2830b3a",
+        "1bb22c8ed59e155d8bec9f81c7815b8274b373d7",
+        "7de8f3ea64f35ac0c34a2bfcde1f9c4f97331b15",
+        "3aedcb9378d401298115ceafa8afdadd5d78e673",
+        "f1435f73fa40de1595b59097730ff3e6d388dace",
+        "0b2dcb0123f21918623e1277038551af8d76d723",
+        "f87d9a7d03a8054ba589a5ef273af8ee514dd2cb",
+        "673cd21dbb570d9fc236aafd5b06ef3716625bac",
+        "582f61a349b040cb104306a49488359636081705",
+        "caffbf6f36df6a774557b24f3a5512bba8848716",
+        "c5207d684f69cb31872f2ed7724a6f4be5647a60",
+        "dba3061a36af5dc83d3426ae00f6cabdba9776a1",
+        "8b349a30a5add743ff9f58cc58b59c3392e92c86",
+        "0f3b15c64a56be8f56cb8c6384fb405b3676ddb7",
+        "9d40e3349a53e7c95c21b193745662009488d0e7",
+        "a936c7b33f05b4e36ad3041d9c9b3c7b9177e116",
+        "8125392f4fafae3d2c6aa90b0241ca56b841e707",
+        "730c73a9abcbc0f4575e39d22c6f0e8a2e81ee5a",
+        "6057f6a3d31523bca0d510ae19d27ade2101316e",
+        "6cc63ed4f4adef5f9aed83d70a6075849ce74352",
+        "0b2eccff31e85d0110a6d106e5a1055b61ad3516",
+        "6c46d504e487426015dec8b3b4a16f37542bcc4e",
         "60cb5227dbc6dfc666d42dea2f6a288f1a553c01",
         "ea7e556b5c0bd3619f939a7bbd6015b2514b7598",
         "523b8f51af445ce6c84ce587a7b2eb91ccef3810",
@@ -27646,9 +27675,9 @@
         "f9b92d574ffb928497720944cb7f81a090fb9560",
         "ca491475ea055bab0bd148c91d262f580bee7b8c"
       ],
-      "sha256hash": "052db4fe513a947d31985e5e6b2ac47c5558271774ed8a67a6a13a8c00c094a3",
-      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-20261106-2137-6c46d50/FediPilot-darwin-arm64-6c46d504e487426015dec8b3b4a16f37542bcc4e.zip",
-      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-20261106-2137-6c46d50"
+      "sha256hash": "918b0efa7c09bfdfe457c262dc46331e733c2617768eaf4ec94b039723753b60",
+      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-20261107-0238-e77ff80/FediPilot-darwin-arm64-e77ff80a5659dcbf650bceac3a52a3f5a1a7df86.zip",
+      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-20261107-0238-e77ff80"
     }
   }
 }
