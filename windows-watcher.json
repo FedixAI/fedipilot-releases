@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "at": 1794208011925,
+  "state": "building",
+  "commit": "e714292d261953f751bf99cf71fb4a7f25720c5f",
+  "mainCommit": "e714292d261953f751bf99cf71fb4a7f25720c5f",
+  "feedCommit": "312dc350e46ebbad23f20f45f27d395ae9002e77",
+  "watcherCommit": "d8525e7cb1e3ef32728802b375d6caabdf6f7ead",
+  "buildStartedAt": 1794208011925,
+  "buildTimeoutMs": 21600000
+}
