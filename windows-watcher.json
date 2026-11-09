@@ -1,9 +1,11 @@
 {
   "schema": 1,
-  "at": 1794249540577,
-  "state": "published",
-  "commit": "25ae07da834bd9f5b80d66d812fc71286e39e2cb",
-  "mainCommit": "25ae07da834bd9f5b80d66d812fc71286e39e2cb",
+  "at": 1794249623402,
+  "state": "building",
+  "commit": "396a0593ad40ed1ca1f22d388e2453a1016da202",
+  "mainCommit": "396a0593ad40ed1ca1f22d388e2453a1016da202",
   "feedCommit": "25ae07da834bd9f5b80d66d812fc71286e39e2cb",
-  "watcherCommit": "d8525e7cb1e3ef32728802b375d6caabdf6f7ead"
+  "watcherCommit": "d8525e7cb1e3ef32728802b375d6caabdf6f7ead",
+  "buildStartedAt": 1794249623402,
+  "buildTimeoutMs": 21600000
 }
