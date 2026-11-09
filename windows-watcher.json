@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "at": 1794227001810,
-  "state": "backoff",
+  "at": 1794227201833,
+  "state": "building",
   "commit": "e488197d980edebe1d9ed05e07ca58d96850429b",
   "mainCommit": "e488197d980edebe1d9ed05e07ca58d96850429b",
   "feedCommit": "9f4c773d2af0bdd82b3df307686701052adfea59",
   "watcherCommit": "d8525e7cb1e3ef32728802b375d6caabdf6f7ead",
-  "attempts": 2,
-  "retryAt": 1794227162601
+  "buildStartedAt": 1794227201833,
+  "buildTimeoutMs": 21600000
 }
