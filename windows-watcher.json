@@ -1,11 +1,9 @@
 {
   "schema": 1,
-  "at": 1794288225862,
-  "state": "building",
+  "at": 1794288322264,
+  "state": "failed",
   "commit": "912284fc624f9a1ffdd2e5f27f98cd593d317283",
-  "mainCommit": "912284fc624f9a1ffdd2e5f27f98cd593d317283",
-  "feedCommit": "2928503bdbbab3a154c68fab642b6d5d06ce4d3c",
   "watcherCommit": "d8525e7cb1e3ef32728802b375d6caabdf6f7ead",
-  "buildStartedAt": 1794288225862,
-  "buildTimeoutMs": 21600000
+  "attempts": 1,
+  "retryAt": 1794288442259
 }
