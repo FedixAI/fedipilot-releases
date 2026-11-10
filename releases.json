@@ -1,11 +1,22 @@
 {
   "win32-x64-user": {
     "oss": {
-      "version": "72bd97995572f1d3f63f5712725a63d1eaf0a941",
-      "productVersion": "0.2.0-dev.72bd97995572",
-      "timestamp": 1794273572760,
-      "sourceTimestamp": 1794261479000,
+      "version": "2928503bdbbab3a154c68fab642b6d5d06ce4d3c",
+      "productVersion": "0.2.0-dev.2928503bdbba",
+      "timestamp": 1794282061171,
+      "sourceTimestamp": 1794273014000,
       "supersedes": [
+        "11fd1dce6eaf1cb1f212d5cb5d12e06b1236922b",
+        "7449b51e621f5cb93a73e398c726c7901ee92d29",
+        "d0acde6481cbb4558ab937e7df7c2273fa7b8a93",
+        "b56f375a457bedd4ae74fd8944eb7af9b4aa2530",
+        "610c7079b9a70b05c2ab6a19832219202ba74be2",
+        "9a3104d2581ad06c10dbe7b8f31405dd7248139e",
+        "bbd835dfabe28d58d702478e342051650c9d9680",
+        "b396f297e5481059bb6ea802e2c90def2a4457c8",
+        "c5aec172c621cf19a0143e666b42f95b0b68e005",
+        "8c926d25408cb0b5163ae629891259d3c0f5b749",
+        "72bd97995572f1d3f63f5712725a63d1eaf0a941",
         "16791074c5f13ae26def1c24b8d21cab4f347a1e",
         "396a0593ad40ed1ca1f22d388e2453a1016da202",
         "25ae07da834bd9f5b80d66d812fc71286e39e2cb",
@@ -14477,9 +14488,9 @@
         "f9b92d574ffb928497720944cb7f81a090fb9560",
         "ca491475ea055bab0bd148c91d262f580bee7b8c"
       ],
-      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-20261109-2157-72bd979/FediPilotSetup-x64-0.2.0-dev.72bd97995572.exe",
-      "sha256hash": "0c47e73cbcb5f191a951d61ce37632bafb594c61bb6c8e6190a997a316e207f0",
-      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-20261109-2157-72bd979"
+      "url": "https://github.com/FedixAI/fedipilot-releases/releases/download/dev-20261110-0110-2928503/FediPilotSetup-x64-0.2.0-dev.2928503bdbba.exe",
+      "sha256hash": "7b01a6125da03e2cfd898ef6c9cd72a6cc4a03a317b391d652eea324c0a5876f",
+      "releasePage": "https://github.com/FedixAI/fedipilot-releases/releases/tag/dev-20261110-0110-2928503"
     }
   },
   "darwin-arm64": {
